@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-class MyNumbers:
-    def __iter__(self):
-        self.a = 1
-        return self
-
-    def __next__(self):
-        x = self.a
-        self.a += 1
-        return x    
-  
-myclass = MyNumbers()
-print(type(myclass))
+"""
+test
+"""
+print(dir())
+#hello
+print(__builtins__)
+print(__cached__)
+print(__doc__)
+print(__file__)
+print(__loader__)
+print(__name__)
+print(__package__)
+print(__spec__)
